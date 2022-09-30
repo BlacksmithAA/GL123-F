@@ -1,4 +1,106 @@
 *{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+body{
+    background-color: white;
+}
+
+
+
+h1{ 
+    text-align: center;
+}
+
+
+.datos{
+    float: left;
+}
+
+.menu{
+    background-color: #dceafc;
+    height: 125px;
+}
+
+.bot{
+    float: right;
+    list-style-type: none;
+}
+
+
+.bot a{
+    background-color: #84b6f4;
+color: black;
+text-decoration: none;
+padding: 50px;
+border-radius: 10px;
+position: relative;
+top: 53px;
+margin: 0.5px;
+}
+
+
+.articles{
+    position: relative;
+    margin: 5px;
+    border: 2px solid #84b6f4;
+    display: flex;
+    background-color: #dceafc;
+    
+}
+
+.article{
+    text-align: center;
+   float: left;
+    align-items: center;
+    border: 2px solid #84b6f4;
+    margin: 10px;
+    background-color: white;
+    width: 350px;
+    position: relative;
+    
+}
+.imgar{
+position: relative;
+
+}
+
+.BDA{
+position: relative;
+left: 200px;
+width: 753px;
+height: 502px;
+height: 500px;
+z-index: -1px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Fotos/BDA.jpg");
+}
+
+
+
+
+.bos{
+    position: relative;
+    color: white;
+    z-index: +1px;
+    top: 150px;
+    left: 150px;
+    width: 500px;
+    font-size: x-large;
+  
+
+}
+
+footer{
+    background-color: #dceafc;
+margin-top: 10px;
+    padding: 100px;
+}
+
+.ficon{
+    display: flex;
+    align-items: center;
+    float: right; 
+    margin: 10px;
+    position: relative;
+    top: -80px;
 }
